@@ -1,0 +1,64 @@
+@charset "UTF-8"; /* 인코딩 문자 깨짐 방지*/
+
+html{
+    position: relative;
+width: 1930px;
+height: 1083px;
+}
+li{
+    text-transform: none;
+    list-style-type: none;
+    text-decoration: none;
+
+    color: red;
+}
+
+
+
+.left{
+    position: absolute;
+left: 0%;
+right: 55.23%;
+top: 0%;
+bottom: 0%;
+
+background-image: url(../images/20230308_170437.png);
+
+background-size: cover;
+}
+.right{
+   
+    position: absolute;
+    left: 62.33%;
+    right: 20.41%;
+    top: 6.09%;
+    bottom: 82.73%;
+    color: rgba(169, 197, 185, 0.8);
+}
+
+.right .subtitle {
+    position: absolute;
+left: 57.56%;
+right: 15.6%;
+top: 17.22%;
+bottom: 78.7%;
+
+    color:#7E7171;
+}
+
+.right .midletitle{
+
+    
+    color: #474242;
+    
+
+}
+.etc{
+    height: 28.919668197631836px;
+    width: 248px;
+    left: 1246px;
+    top: 991px;
+    border-radius: nullpx;
+    
+
+}
