@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고객센터틀</title>
-    <link href="../resource/css/style.css" rel="stylesheet" type="text/css">
+    <title>문의하기</title>
+    <link href="../resource/css/ct.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="../resource/images/icons8-화분에-심은-식물-48 (1).png">
     <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet" type="text/css">
     <link href="../resource/css/font.css" rel="stylesheet" type="text/css">
@@ -24,18 +24,24 @@
             <div class="subtitle" id="sub타이틀"><p>반갑습니다. 식물쇼핑몰 물뿌리개입니다.</p></div>
         <nav>
             <div class="midletitle" id="midletitle">
-                <h3 class="midle">고객센터</h3>
+                <h3 class="midle">1:1문의</h3>
                 <ul class="midletitle-choose">
-                    <li class="midletitle-choose-1"><a class="button" href="공지사항.html">공지사항</a></li>
-                    <li class="midletitle-choose-2"><a href="FAQ.html">FAQ</a></li>
-                    <li class="midletitle-choose-3"><a href="상품문의.html">상품문의</a></li>
-                    <li class="midletitle-choose-4"><a href="1대1문의.html">1:1문의</a></li>
+                    <li class="midletitle-choose-1"><a>일랑일랑</a></li>
+                    <li class="midletitle-choose-2"><a>이메일</a></li>
+                    <li class="midletitle-choose-3"><a>문의 내용</a></li>
                 </ul>
             </div>
         </nav>
+        <form action="{getform-endpoint}" method="POST">
 
-
-        <div class="etc" id="카피라이트">@Copyright 물뿌리개</div>
+            <input type="text" id="name">
+            <input type="email" id="email">
+            <textarea id="content"></textarea>
+            <button type="submit" onclick="location.href='1대1문의.html' " id="subbutton"><a href="1대1문의.html">제출</a></button>
+            <button id= ca-bt type="button" onclick="location.href='고객센터틀.html' "><a>취소</a></button>
+          
+          </form>
+     
             
 
     </div>
