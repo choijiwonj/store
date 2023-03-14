@@ -73,10 +73,9 @@ a {
 } 
 
 .btm-holder {
-    width: 100%;
-    padding: 20px;
-    position: fixed;
-    bottom: 0px;
+   position : absolute;
+width: 100%;
+bottom: -200%;
     /* left: 0px; */
     background: rgba(169, 197, 185, 0.7);
     
@@ -363,16 +362,40 @@ bottom: -67.29%;
 border: 1px solid rgba(126, 113, 113, 0.8);
 border-radius: 30px;
 }
-.user-input{
-
+#content{
+    position: absolute;
            
-            left: 59.63%;
-            right: 20.81%;
-            top: 171.34%;
-            bottom: -67.29%;
-            font-size: 17pt;
-background:#D9D9D9;
+    left: 6.37%;
+    right: 6.68%;
+    top: 205.34%;
+bottom: -115.29%;
+    font-size: 17pt;
+background:rgba(126, 113, 113, 0.1);
+border-radius: 30px;
+font-size: 17pt;
+margin: 0 100px;
+padding:10px;
 }
+.user-love{
+    position: absolute;
+    left: 9.63%;
+    right: 80.1%;
+    top: 195.34%;
+    bottom: -67.29%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: rgba(118, 141, 131, 0.7);
+    
+
+}
+
 .right-menu1{
     position: absolute;
 left: 79.02%;
@@ -440,4 +463,14 @@ line-height: 24px;
 color: rgba(118, 141, 131, 0.9);
 
 border: 0.5px solid rgba(118, 141, 131, 0.9);
+}
+.modify{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(118, 141, 131, 0.7);
+    left: 85%;
+    right: 0%;
+    top:33%;
+    bottom: 0%;
 }

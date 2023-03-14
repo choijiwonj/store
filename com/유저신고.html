@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유저 신고하기</title>
+    <link href="../resource/css/userct.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="../resource/images/icons8-화분에-심은-식물-48 (1).png">
+    <link href="https://unpkg.com/ress/dist/ress.min.css" rel="stylesheet" type="text/css">
+    <link href="../resource/css/font.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+    <div class="left">
+        <header>
+
+        </header>
+
+    </div>
+    <div class="right">
+        <div class="title" id="타이틀"><h1>물뿌리개</h1></div>
+            <div class="subtitle" id="sub타이틀"><p>반갑습니다. 식물쇼핑몰 물뿌리개입니다.</p></div>
+        <nav>
+            <div class="midletitle" id="midletitle">
+                <h3 class="midle">유저신고하기</h3>
+                <ul class="midletitle-choose">
+                    <li class="midletitle-choose-1"><a>일랑일랑</a></li>
+                    <li class="midletitle-choose-2"><a>이메일</a></li>
+                    <li class="midletitle-choose-3"><a>문의 내용</a></li>
+                </ul>
+            </div>
+        </nav>
+        <form action="{getform-endpoint}" method="POST">
+
+            <input type="text" id="name" placeholder="유저명을 입력하세요">
+            <input type="email" id="email" placeholder="이메일을 입력하세요">
+            <textarea id="content"></textarea>
+            <button type="submit" onclick="location.href='고객센터틀.html' " id="subbutton"><a href="고객센터틀.html">제출</a></button>
+            <button id= ca-bt type="button" onclick="location.href='고객센터틀.html' "><a>취소</a></button>
+          
+          </form>
+     
+            
+
+    </div>
+
+    
+</body>
+</html>
