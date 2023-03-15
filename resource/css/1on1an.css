@@ -1,0 +1,383 @@
+@charset "UTF-8"; /* 인코딩 문자 깨짐 방지*/
+
+html{
+    position: relative;
+width: 1930px;
+height: 1083px;
+}
+li{
+    text-transform: none;
+    list-style-type: none;
+    text-decoration: none;
+    
+
+    color: rgb(137, 187, 169);
+}
+a{
+    text-decoration: none;
+    color:  #FFFFFF;
+}
+
+
+
+.left{
+    position: absolute;
+left: 0%;
+right: 55.23%;
+top: 0%;
+bottom: 0%;
+
+background-image: url(../images/20230314_163718_1.png);
+
+background-size: cover;
+}
+
+.midlebox{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 50.1%;
+    right: 43.89%;
+    top: 28.35%;
+    bottom: 67.96%;
+    
+    border: 2px solid rgba(118, 141, 131, 0.6);
+
+}
+.midlesu{
+    position: absolute;
+left: 50.3%;
+right: 44%;
+top: 29.09%;
+bottom: 68.7%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2em;
+
+color: rgba(118, 141, 131, 0.9);
+}
+.midlename{
+
+    position: absolute;
+left: 57.88%;
+right: 10.13%;
+top: 28.9%;
+bottom: 68.42%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.2em;
+
+color: rgba(126, 113, 113, 0.8);
+}
+
+.right .title{
+    position: absolute;
+    left: 57.56%;
+    right: 15.11%;
+    top: 3.09%;
+    bottom: 89.73%;
+    font-family: 'HSBombaram21-Regular';
+   font-weight: normal;
+   font-size: 40px;
+    text-align: center;
+     
+    
+    color: rgba(169, 197, 185, 0.8);
+}
+
+.right .subtitle {
+    position: absolute;
+    left: 61.33%;
+right: 15.6%;
+top: 12.22%;
+bottom: 78.7%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 31px;
+
+
+    color:#7E7171;
+}
+
+.right .midletitle .midle{
+
+    position: absolute;
+left: 65.56%;
+right: 19.01%;
+top: 25.09%;
+bottom: 65.09%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+    color: #474242;
+    
+
+}
+.midletitle-choose-1{
+    position: absolute;
+    left: 48.16%;
+    right: 43.01%;
+    top: 36.93%;
+    bottom: 59%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-decoration: none;
+background: rgba(118, 141, 131, 0.9);
+
+
+}
+.midletitle-choose-2{
+    position: absolute;
+    left: 48.16%;
+    right: 43.01%;
+    top: 43.93%;
+    bottom: 52.01%;
+    
+    background: rgba(118, 141, 131, 0.9);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: rgba(118, 141, 131, 0.9);;
+   
+    
+ 
+    
+}
+.midletitle-choose-3{
+
+    position: absolute;
+    left: 48.16%;
+    right: 43.01%;
+top: 51.25%;
+bottom: 43.99%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+background: rgba(118, 141, 131, 0.9);
+
+}
+.midletitle-choose-4{
+    position: absolute;
+    left: 48.16%;
+    right: 43.01%;
+top: 64.55%;
+bottom: 30.99%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+background: rgba(118, 141, 131, 0.9);
+}
+
+
+
+.etc{
+    position: absolute;
+    left: 64.56%;
+right: 22.59%;
+top: 80.76%;
+bottom: 5.56%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+}
+
+.midledate{
+    position: absolute;
+left: 81.66%;
+right: 2.64%;
+top: 21.79%;
+bottom: 76.64%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2em;
+
+color: rgba(118, 141, 131, 0.9);
+
+}
+
+.right-emp-1{
+
+position: absolute;
+left: 59.63%;
+right: 8.81%;
+top: 36.93%;
+bottom: 59%;
+font-size: 18pt;
+
+
+background: #D9D9D9;
+}
+
+.right-emp-2{
+
+    position: absolute;
+    left: 59.63%;
+    right: 8.81%;
+    top: 43.93%;
+    bottom: 52.01%;
+    font-size: 18pt;
+    
+    background: #D9D9D9;
+    }
+
+    .right-emp-3{
+
+        position: absolute;
+        left: 59.63%;
+        right: 8.81%;
+        top: 55.25%;
+        bottom: 19.97%;
+        
+        background: #D9D9D9;
+        }
+
+        #name{
+            position: absolute;
+left: 59.63%;
+right: 8.81%;
+top: 36.93%;
+bottom: 59%;
+font-size: 18pt;
+
+background: #D9D9D9;
+text-align: center;
+
+        }
+
+        #email{
+            position: absolute;
+            left: 59.63%;
+            right: 8.81%;
+            top: 43.93%;
+            bottom: 52.01%;
+            font-size: 18pt;
+            
+            background: #D9D9D9;
+            text-align: center;
+
+        }
+        
+
+        #content{
+
+            position: absolute;
+           
+            left: 59.63%;
+            right: 8.81%;
+            top: 51.25%;
+            bottom: 41.16%;
+            font-size: 17pt;
+            text-align: center;
+            color: black;
+            background:#D9D9D9;
+        }
+        .reason{
+
+            position: absolute;
+            left: 59.63%;
+            right: 8.81%;
+            top: 64.55%;
+            bottom: 23.99%;
+            font-size: 18pt;
+            text-align: center;
+            background: #D9D9D9;
+
+
+        }
+
+        #subbutton{
+
+            position: absolute;
+    left: 79.07%;
+    right: 15.44%;
+    top: 79.78%;
+    bottom: 15.79%;
+
+    background: rgba(169, 197, 185, 0.8);
+        }
+        #ca-bt{
+            position: absolute;
+left: 85.6%;
+right: 8.91%;
+top: 79.78%;
+bottom: 15.79%;
+
+background: rgba(169, 197, 185, 0.8);
+
+        }
+
+        hr{
+            position: absolute;
+            width: 50%;
+            left: 47%;
+            top: 59.93%;
+            bottom: 27.01%;
+        }
+        /* .line{
+            position: absolute;
+            right: 8.81%;
+            left: 102.63%;
+
+        } */
+
+        .stdate{
+            position: absolute;
+left: 78.6%;
+right: 5.54%;
+top: 61.54%;
+bottom: 31.02%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2em;
+
+color: rgba(118, 141, 131, 0.9);
+        }
