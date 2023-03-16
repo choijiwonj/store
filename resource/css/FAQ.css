@@ -83,7 +83,7 @@ background: black;
     position: absolute;
     left: 27.41%;
     right: 61.24%;
-    top: 26.09%;
+    top: 27.09%;
     bottom: 68.52%;
     
 font-family: 'Inter';
@@ -96,16 +96,25 @@ letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
 
-border: 1px solid rgba(255, 255, 255, 0.8);
 
-background: rgba(118, 141, 131, 0.9);
+}
+.list-box1{
+
+    position: absolute;
+    left: 27.41%;
+    right: 61.24%;
+    top: 26.09%;
+    bottom: 68.52%;
+    background: rgba(118, 141, 131, 0.9);
+
+
 }
 
 .list-2{
     position: absolute;
     left: 27.41%;
     right: 61.24%;
-    top: 34.73%;
+    top: 35.73%;
     bottom: 59.89%;
 font-family: 'Inter';
 font-style: normal;
@@ -116,16 +125,26 @@ text-align:center;
 letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
+}
 
-border: 1px solid rgba(255, 255, 255, 0.8);
+.list-box2{
+    position: absolute;
+    left: 27.41%;
+    right: 61.24%;
+    top: 34.73%;
+    bottom: 59.89%;
+    border: 1px solid rgba(255, 255, 255, 0.8);
 
 background: rgba(118, 141, 131, 0.9);
+
 }
+
+
 .list-3{
     position: absolute;
     left: 27.41%;
     right: 61.24%;
-    top: 42.8%;
+    top: 43.8%;
     bottom: 51.81%;
     
 font-family: 'Inter';
@@ -137,16 +156,27 @@ text-align:center;
 letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
-
+}
+.list-box3{
+    position: absolute;
+    left: 27.41%;
+    right: 61.24%;
+    top: 42.8%;
+    bottom: 51.81%;
+    
 border: 1px solid rgba(255, 255, 255, 0.8);
 
 background: rgba(118, 141, 131, 0.9);
+
+
 }
+
+
 .list-4{
     position: absolute;
     left: 27.41%;
 right: 61.24%;
-top: 51.25%;
+top: 52.25%;
 bottom: 43.36%;
 font-family: 'Inter';
 font-style: normal;
@@ -157,16 +187,26 @@ text-align:center;
 letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
+}
+
+.list-box4{
+
+    position: absolute;
+    left: 27.41%;
+right: 61.24%;
+top: 51.25%;
+bottom: 43.36%;
 
 border: 1px solid rgba(255, 255, 255, 0.8);
 
 background: rgba(118, 141, 131, 0.9);
+
 }
 .list-5{
     position: absolute;
     left: 27.41%;
     right: 61.24%;
-    top: 59.7%;
+    top: 60.7%;
     bottom: 34.91%;
 font-family: 'Inter';
 font-style: normal;
@@ -177,16 +217,27 @@ text-align:center;
 letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
-
-border: 1px solid rgba(255, 255, 255, 0.8);
-
-background: rgba(118, 141, 131, 0.9);
 }
+
+.list-box5{
+    position: absolute;
+    left: 27.41%;
+    right: 61.24%;
+    top: 59.7%;
+    bottom: 34.91%;
+
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    background: rgba(118, 141, 131, 0.9);
+    
+}
+
+
 .list-6{
     position: absolute;
     left: 27.41%;
 right: 61.24%;
-top: 68.52%;
+top: 69.52%;
 bottom: 26.09%;
 
 font-family: 'Inter';
@@ -198,16 +249,27 @@ text-align:center;
 letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
+}
+
+.list-box6{
+    position: absolute;
+    left: 27.41%;
+right: 61.24%;
+top: 68.52%;
+bottom: 26.09%;
 
 border: 1px solid rgba(255, 255, 255, 0.8);
 
 background: rgba(118, 141, 131, 0.9);
+
+
 }
+
 .list-7{
     position: absolute;
     left: 27.41%;
 right: 61.24%;
-top: 76.97%;
+top: 77.97%;
 bottom: 17.64%;
 font-family: 'Inter';
 font-style: normal;
@@ -218,12 +280,23 @@ text-align:center;
 letter-spacing: 0.2em;
 
 color: rgba(255, 255, 255, 0.8);
+}
+
+.list-box7{
+    position: absolute;
+    left: 27.41%;
+right: 61.24%;
+top: 76.97%;
+bottom: 17.64%;
 
 border: 1px solid rgba(255, 255, 255, 0.8);
 
 background: rgba(118, 141, 131, 0.9);
-}
 
+
+
+
+}
 .li-st1{
     position: absolute;
     left: 41.04%;
