@@ -1,0 +1,9 @@
+
+.review_icon .heartBtn{
+    width: 3rem;
+    float: left;
+    border: none;
+    background: white;
+    margin-top: 0.6rem;
+    cursor: pointer;
+}

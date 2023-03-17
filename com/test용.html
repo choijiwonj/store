@@ -10,43 +10,17 @@
     <title>Document</title>
 </head>
 <body>
-
-    <form action="{getform-endpoint}" method="POST">
-
-        <input type="text" name="name">
-        <input type="email" name="email">
-        <button type="submit">Send</button>
-      
-      </form>
-
-
-      <div class="container">
-        <div class="image-upload" id="image-upload">
-
-            <form method="post" enctype="multipart/form-data">
-                <div class="button">
-                    <label for="chooseFile">
-                        👉 CLICK HERE! 👈
-                    </label>
-                </div>
-                <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
-            </form>
-
-            <div class="fileContainer">
-                <div class="fileInput">
-                    <p>FILE NAME: </p>
-                    <p id="fileName"></p>
-                </div>
-                <div class="buttonContainer">
-                    <div class="submitButton" id="submitButton">SUBMIT</div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="image-show" id="image-show"></div>
+    <!-- 댓글창-->
+    <div id="form-commentInfo">
+        <div id="comment-count">댓글 <span id="count">0</span></div>
+        <input id="comment-input" placeholder="댓글을 입력해 주세요.">
+        <button id="submit">등록</button>
     </div>
+    <div id=comments>
 
-    <script src="index.js"></script>
+    </div>
+    <script src="../resource/jsp/index.js"></script>
+    
     
     
 </body>
