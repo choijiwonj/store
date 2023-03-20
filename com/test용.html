@@ -6,22 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../resource/css/lang.css">
+    <script type="text/javascript" defer src="../resource/jsp/write.js"></script>
 
     <title>Document</title>
 </head>
 <body>
-    <!-- 댓글창-->
-    <div id="form-commentInfo">
-        <div id="comment-count">댓글 <span id="count">0</span></div>
-        <input id="comment-input" placeholder="댓글을 입력해 주세요.">
-        <button id="submit">등록</button>
-    </div>
-    <div id=comments>
+    <div class="img-file">
+    <img id="user_image" src="#" alt="" >
+    <!-- onchange event 걸어주기  -->
+    <input accept=".jpg" onchange="PreviewImage();" type="file" id="user_profile_img" />
+</div>
 
-    </div>
-    <script src="../resource/jsp/index.js"></script>
-    
-    
-    
 </body>
+
 </html>
